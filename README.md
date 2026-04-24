@@ -136,7 +136,7 @@ Validation Set Performance — Best Checkpoint (510 images)
 ## 6. Key Findings & Takeaways
 
 ### Strengths
-- High poisonous precision (82%): When the model flags a mushroom as poisonous, it is correct 82% of the time — critical for safety-oriented use.
+- High poisonous precision (82%): When the model flags a mushroom as poisonous, it is correct 82% of the time critical for safety-oriented use.
 - Solid poisonous recall (73%): The model catches nearly three-quarters of all poisonous mushrooms in the validation set.
 - Fast fine-tuning: Freezing all but the classifier head kept trainable params to ~2,050, enabling 30 epochs on a free T4 GPU in under 10 minutes.
 - Class-weighted loss: Prevented the model from collapsing to always predicting "poisonous" despite the 65/35 imbalance.
