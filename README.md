@@ -107,7 +107,7 @@ Runs the best-weight model over the full validation set and prints a `sklearn` `
 ---
 
 ### Cell 11 — Single-Image Inference
-Prompts you to upload any mushroom image from your computer. The cell will:
+Prompts you to upload any mushroom image from your computer (4 images provided: poisonous_1, poisonous_2, edible_1, edible_2. The cell will:
 1. Display the image at 224×224.
 2. Apply the validation transform and run a forward pass.
 3. Compute softmax probabilities and display the predicted class: EDIBLE in green or POISONOUS in red with a confidence percentage.
